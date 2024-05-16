@@ -1,0 +1,24 @@
+{
+  "name": "jscb",
+  "version": "1.0.0",
+  "description": "To create a jscb for prompt engg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikumar843expleo/JSCookbook.git"
+  },
+  "keywords": [
+    "prompt",
+    "engg",
+    "jscookbook"
+  ],
+  "author": "Saikumar SN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saikumar843expleo/JSCookbook/issues"
+  },
+  "homepage": "https://github.com/saikumar843expleo/JSCookbook#readme"
+}
