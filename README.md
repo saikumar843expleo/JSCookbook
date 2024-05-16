@@ -27,6 +27,11 @@ my-project/
 ├── .gitignore        # Specify files/directories to ignore in Git
 └── package.json      # Project metadata and dependencies
 
+### ESLint is a popular linter for JavaScript. It helps you maintain a consistent code style and catch errors early.
+
+npm install --save-dev eslint
+npx eslint --init - Prompts for various requirements to lint the code and the supplied arguments will be taken as link config json file.
+
 ### Create a README.md: Write a README file to document your project, including installation instructions, usage, and any other relevant information.
 
 

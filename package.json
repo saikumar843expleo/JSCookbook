@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/saikumar843expleo/JSCookbook/issues"
   },
-  "homepage": "https://github.com/saikumar843expleo/JSCookbook#readme"
+  "homepage": "https://github.com/saikumar843expleo/JSCookbook#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^9.2.0",
+    "globals": "^15.2.0"
+  }
 }
