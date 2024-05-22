@@ -4,7 +4,9 @@
   "description": "To create a jscb for prompt engg",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "jest",
+    "audit": "npm audit"
   },
   "repository": {
     "type": "git",
