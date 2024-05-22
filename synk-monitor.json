@@ -1,0 +1,33 @@
+{
+    "version": "1.0.0",
+    "language": "node",
+    "project": {
+      "name": "my-nodejs-app",
+      "description": "A Node.js application demonstrating best practices for security, testing, and CI/CD integration",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yourusername/my-nodejs-app"
+      }
+    },
+    "monitorSettings": {
+      "packageManager": "npm",
+      "devDependencies": false,
+      "ignore": [
+        "node_modules/**",
+        "tests/**"
+      ],
+      "exclude": [
+        "public/**",
+        "src/tests/**"
+      ]
+    },
+    "integration": {
+      "ci": {
+        "tool": "github-actions",
+        "config": {
+          "file": ".github/workflows/cd.yml",
+          "events": ["push", "pull_request"]
+        }
+      }
+    }
+  }  
