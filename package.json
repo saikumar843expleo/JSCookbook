@@ -2,10 +2,10 @@
   "name": "jscb",
   "version": "1.0.0",
   "description": "To create a jscb for prompt engg",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest",
+    "test": "tests/index.test.js",
     "audit": "npm audit"
   },
   "repository": {
