@@ -56,4 +56,4 @@ A package.json file will be created.
 
 and the code that should go into the files will also be provided by the prompt itself.
 
-Use this structure to align with the commonly used code base structure
+Use this structure to align with the commonly used code base structure.
