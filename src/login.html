@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+    </style>
+    <script>
+        function validateForm() {
+            var username = document.getElementById('uname').value;
+            var password = document.getElementById('psw').value;
+
+            if (username === '') {
+                alert('Please enter username');
+                return false;
+            }
+
+            if (password === '') {
+                alert('Please enter password');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <div class="form-container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+        <button type="submit" onclick="return validateForm()">Sign In</button>
+        <button type="button">Sign Up</button>
+    </div>
+</body>
+</html>
